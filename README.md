@@ -1,8 +1,8 @@
 # README
 
-Trying to learn Git... 
+Practicing The Git Way... 
 
-### Create new branch
+## Create new branch
 
 ```
 git checkout -b working_branch main
@@ -10,16 +10,16 @@ git checkout -b working_branch main
 
 
 — Create and switch to branch
-git switch -c <new-branch-name> origin/main
+```git switch -c <new-branch-name> origin/main```
 
 — Create branch but stay in current branch
 git branch <new-branch-name>
 
-	— Rename branch
-	git branch -M main
+— Rename branch
+```git branch -M main```
 
-	— Switch to branch
-	git switch main:
+— Switch to branch
+```git switch main:`
 
 	— Switch branch
 	git switch -c main
@@ -71,4 +71,20 @@ git branch -d my-feature
 git add filename.ext
 git commit -m "Add your commit message here"
 git push origin main
+
+
+
+-- Rename a File
+
+git mv README README.md
+ 1057  git status
+ 1058  git push -u origin main
+ 1059  ls
+ 1060  git add README.md
+ 1061  git commit -m "renamed readme to readme.md"
+ 1062  git push -u origin main
+
+
+
+
 
